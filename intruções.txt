@@ -1,0 +1,6 @@
+1) Criar o arquivo a ser  testado chamado 'calculadora.py'
+
+2) criar o arquivo de testes chamado  'test_calculadora.py'
+
+3) Executando o arquivo de testes unitários 
+- Comando no terminal: python test_calculadora.py
