@@ -9,12 +9,15 @@ class TestCalculadora(unittest.TestCase):
 
     def test_soma(self):
         self.assertEqual(self.calc.soma(10, 20), 30)
+        self.assertEqual(self.calc.soma(5000, 2500), 7500)
     def test_subtracao(self):
         self.assertEqual(self.calc.subtracao(20, 10), 10)
+        self.assertEqual(self.calc.subtracao(5000, 2500 ), 7500)
     def test_multiplicacao(self):
         self.self.assertEqual(self.calc.multiplicacao(20, 10), 10)
     def test_divisao(self):
         self.assertEqual(self.calc.divisao(20, 10), 10)
+        self.assertEqual(self.calc.divisao(5000, 2500), 7500)
     
     def test_divisao_por_zero(self):
         with self.assertRaises(ZeroDivisionError):
